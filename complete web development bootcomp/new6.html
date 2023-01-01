@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position absolute ,relative,fixed&sticky</title>
+    <!-- position : static (default),absolute,relative,fixed,sticky   -->
+    
+    <style>
+        .box{
+        border:2px solid black;
+        margin: 2px;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
+    #box3{
+        /* relative: relative to it's normal position  */
+        /* fixed: fix position always and in the time of scrolling */
+        position: sticky;
+        top: 4px;
+        /* top: 34px;
+        left: 64px; */
+
+    }
+
+    .hero{
+        height: 3334px;
+        border: 2px solid blue;
+        background-color: honeydew;
+    }
+    </style>
+
+
+</head>
+<body>
+    <div class="hero">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">chat with us</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>

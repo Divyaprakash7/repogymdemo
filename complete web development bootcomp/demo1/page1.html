@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page1</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+        
+    }
+    .container{
+        
+        
+        height: 250px;
+        
+        }
+    .box{
+            background-color: burlywood;
+            position: relative;
+            height: 150px;
+            width: 150px;
+            margin: 5% auto;
+            animation-name: divya;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+           
+        }
+        .box1{
+            background-color: rgb(131, 175, 226);
+            position: relative;
+            height: 200px;
+            width: 200px;
+           
+            margin: auto auto;
+            animation-name: divya1;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-fill-mode: forwards;
+           
+        }
+
+        .box2{
+            background-color: rgb(143, 238, 119);
+            position: relative;
+            height: 100px;
+            width: 100px;
+           
+            margin: auto auto;
+            animation-name: divya2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+           
+        }
+       /* .box3{
+            background-color: rgb(231, 159, 174);
+            position: relative;
+            height: 70px;
+            width: 70px;
+            margin: auto auto;
+            animation-name: divya3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-fill-mode: backwards;
+           
+        }*/
+       /* @keyframes divya{
+            form{
+                 height: 250px;
+                 width: 250px;
+
+            }
+            to{
+                height: 100%;
+                width: 100%;
+            }
+        }*/
+      /*  @keyframes divya
+        {
+            0%{
+              margin-left: 0px;
+            }
+            20%{
+                margin-left: 50px;
+            }
+            40%{
+                margin-left: 100px;
+            }
+            60%{
+                margin-left: 400px;
+            }
+            80%{
+                margin-left: 800px;
+            }
+            100%{
+                margin-left: 100%;
+            }
+        }*/
+
+        @keyframes divya
+        {
+            0%{
+              left: 0px;
+              top: 0px;
+            }
+            25%{
+                left: 0px;
+                top: 250px;
+            }
+            50%{
+                left: 250px;
+               top: 250px;
+            }
+            75%{
+               left: 250px;
+               top: 0px;
+            }
+            100%{
+                left: 0px;
+               top: 0px;
+        }
+    }
+    @keyframes divya1
+        {
+            0%{
+              left: 0px;
+              top: 0px;
+            }
+            25%{
+                left: 0px;
+                top: 50px;
+            }
+            50%{
+                left: 250px;
+               top: 50px;
+            }
+            75%{
+               left: 250px;
+               top: 0px;
+            }
+            100%{
+                left: 0px;
+               top: 0px;
+        }
+    }
+    @keyframes divya2
+        {
+            0%{
+              left: 0px;
+              top: 0px;
+            }
+            25%{
+                left: 0px;
+                top: 70px;
+            }
+            50%{
+                left: 70px;
+               top: 70px;
+            }
+            75%{
+               left: 70px;
+               top: 0px;
+            }
+            100%{
+                left: 0px;
+               top: 0px;
+        }
+    }
+
+    @keyframes divya3
+        {
+            0%{
+              left: 0px;
+              top: 0px;
+            }
+            25%{
+                left: 0px;
+                top: 250px;
+            }
+            50%{
+                left: 300px;
+               top: 250px;
+            }
+            75%{
+               left: 300px;
+               top: 0px;
+            }
+            100%{
+                left: 0px;
+               top: 0px;
+        }
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            
+        </div>
+        <div class="box1">
+            
+        </div>
+        <div class="box2">
+            
+        </div>
+      <!-- <div class="box3">
+            
+        </div>  -->
+    </div>
+</body>
+</html>

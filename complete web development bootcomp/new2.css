@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(238, 153, 104);
+}
+
+#welcome{
+    margin-top: 0px;
+    margin-right: 50%;
+    margin-bottom: 0px;
+    margin-left: 45%;
+    width: 280px
+}
+.ghata{
+    margin: 120px 50px;
+    border: 3px solid black;
+    padding: 10px 5px;
+    background-color: blanchedalmond;
+}
+.baap{
+    border: 2px solid black;
+    margin:12px 3px;
+    padding: 10px 3px;
+    background-color: rgb(212, 196, 196);
+    font-style: italic;
+
+}
+#tera h1{
+    padding-left: 40%;
+    padding-right: 45%;
+}
+#mera h1{
+    padding-left: 30%;
+    padding-right: 47%;
+}
+#tujhe h1{
+    padding-left: 45%;
+    padding-right: 45%;
+}
+#tera{
+     float: left;
+     width: 48%;
+     box-sizing: border-box;
+     margin: 10px 10px;
+     
+    }
+   #mera{
+        float: right;
+        width: 47%;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 1px;
+    }
+    #tujhe{
+        /* float: left;  */
+        width: 98%;
+        clear: both;
+        box-sizing: border-box;
+        margin: 12px 12px;
+}
+#tera p{
+    text-align: center;
+}
+#mera p{
+    text-align: center;
+}
+ 
+#tujhe p{
+     text-align: center;
+}
+em{
+    color: brown;;
+}

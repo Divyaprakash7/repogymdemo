@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(255, 146, 4);
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(248, 150, 37);   border-style: solid;
+    border-color: rgb(31, 28, 28); 
+  }
+h1{
+    /* here i use !important for getting more priority  */
+    color: rgb(255, 255, 255) !important;
+    background-color: indigo;
+    border: 3px solid black;
+    padding-left: 180px;
+    padding-top: 50px;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+p{
+    color: rgb(5, 0, 0);
+    font-size: 25px;
+    margin: 10px;
+}
+/* elemet selctor  */
+h2{
+    color: white;
+    margin: 10px;
+}
+/* id selector */
+#hari{
+    /* colors in css by name */
+     color: antiquewhite;
+     margin: 10px;
+}
+/* class selector */
+.place{
+    /* colors by Rgb  */
+    color: rgb(51, 207, 228);
+    margin: 10px;
+}
+/* group selector */
+h2,h3{
+    color: blanchedalmond;
+    font-family: cursive;
+    /* for creating gaap between previous & this line  */
+    line-height: 3.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+ol{
+    font-style: italic;
+    /* border  */
+    border-top: 1px solid black;
+    border-right: 2px dotted deepskyblue;
+    border-bottom: 1px solid black;
+    border-left: 2px dotted deepskyblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    
+}
+
+ul{
+    border-style: dotted;
+    border-color: wheat;
+    border-radius: 10px;
+}
+.raghua{
+    border: 2px solid black;
+    margin: 12px 3px;
+    color: brown;
+    padding: 12px 3px;
+    background-color: burlywood;
+
+    
+}
+

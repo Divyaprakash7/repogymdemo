@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on selector</title>
+</head>
+<style>
+    h1{
+        background-color: red;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+    /* div > p  div's direct child p  */
+    div > p{
+        color: yellow;
+        font-weight: bold;
+        background-color: teal;
+    }
+    /* thi is a p just after the sibling div  */
+    div+p{
+         color: tomato;
+         background-color: thistle;
+    }
+</style>
+<body>
+    <h1>this is more no selctor</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p> this is another paragraph inside it</p>
+                </li>
+                <li>this is not affected</li>
+            </ul>
+            <!-- this is child  -->
+            <p>this s a paragraph</p>
+             
+        </div>
+        <!-- this is sibling -->
+        <p>this is another paragraph</p>
+    </div>
+    <!-- this is also sibling  -->
+    <p>This is another one</p>
+</body>
+</html>

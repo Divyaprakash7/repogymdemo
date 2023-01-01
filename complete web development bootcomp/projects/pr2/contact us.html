@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+       .navigation li a.active{
+            text-decoration: none;
+            color: chocolate;
+       }
+       body{
+           background-color: blanchedalmond;
+       }
+       .navigation{
+           margin: auto;
+           display: flex;
+           justify-content: center;
+       }
+       .navigation li a{
+           text-decoration: none;
+           color: black;
+       }
+       li{
+           padding: 2%;
+           list-style: none;
+           text-decoration: none;
+       }
+       .right{
+           align-items: center;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <li><a href="home.html" target="_blank">Home</a></li>
+            <li><a href="about us.html" target="_blank" >About us</a></li>
+            <li><a href="contact us.html" target="_blank" class="active">Contact us</a></li>
+            <li><a href="quotes.html" target="_blank"> Quotes</a></li>
+        </div>
+<div class="right">
+    <!-- right box for buttons -->
+    <button class="btn">call us now</button>
+    <button class="btn">email us </button>
+</div>
+</header>
+
+<!-- input -->
+<main>
+    <h2>Contact Us</h2>
+<div class="contact">
+    <form action="divya.java">
+    <div class="contact1">
+        <label for="nameinfo"></label>
+         <input type="text" name="name" id="nameinfo" placeholder="Name">
+    </div><br>
+    <div class="contact2">
+        <label for="emailad"></label>
+        <input type="text" name="email" id="emailad" placeholder="Email">
+    </div><br>
+    <div class="contact3">
+        <label for="phnum"></label>
+        <input type="number" name="phno" id="phnum" placeholder="contact number">
+    </div><br>
+    <div class="contact4">
+        <label for="some"></label>
+        <textarea name="cont4" id="some" rows="3" cols="20" placeholder="say something"></textarea>
+    </div><br>
+    <div class="reset">
+        <input type="reset" value="reset">
+    </div><br>
+    <div class="submit">
+        <input type="submit" value="submit">
+    </div><br>
+<div>
+</form>
+</main>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game1</title>
+</head>
+<style>
+    .box{
+     border: 2px solid black;
+    }
+    .box1{
+     height: 200px;   
+     width: 200px;
+     border-radius: 300px;
+     margin-top: 30%;
+     background-color: black;
+     position: relative;
+     animation-name: box1;
+     animation-duration: 8s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease-in-out;
+     animation-direction: normal;
+    }
+
+    @keyframes box1{
+        0%{
+         left: 0px; 
+         top: 0px;
+         
+        }
+        20%{
+         left: 300px;
+         top: 0px;
+        }
+        40%{
+            left: 300px;
+            top: -200px;
+
+        }
+        60%{
+            top: -200px;
+            left: 600px;
+
+        }
+        80%{
+            top: -300px;
+            left: 600px;
+
+        }
+        100%{
+            top: -300px;
+            left: 110%;
+
+        }
+    }
+
+    .box2{
+        height: 100px;   
+     width: 100px;
+     border-radius: 300px;
+     background-color: black;
+     position: relative;
+     top: -470px;
+     left: 1000px;
+    }
+
+</style>
+<body>
+    <div class="box">
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+    </div>
+</body>
+</html>

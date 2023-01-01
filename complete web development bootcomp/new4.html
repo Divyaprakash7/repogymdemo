@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A navigation menu</title>
+    <style>
+        .navigation{
+            background-color: coral;
+            overflow: auto;
+            width: 500px;
+            margin: 50px auto;
+            border-radius: 20px;
+        }
+        .navigation li{
+            float: left;
+            list-style: none;
+            padding: 3px 3px;
+            margin: 13px 20px;
+        }
+        .navigation li:hover{
+            border: 2px solid black;
+        }
+        .navigation li a{
+            text-decoration: none;
+            color: black;
+            padding: 3px 3px;
+        }
+        div{
+            padding: 3px 3px;
+            margin: 13px 3px;
+        }
+        .navigation input{
+            border: 2px solid red;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="navigation">
+       <li><a href="">Home</a></li>  
+       <li><a href="">About</a></li>
+       <li><a href="">Services</a></li>
+       <li><a href="">Contact us</a></li>
+       <div>
+           <input type="text" name="serch" placeholder="serch in this website">
+       </div>
+    </ul>
+    
+</body>
+</html>

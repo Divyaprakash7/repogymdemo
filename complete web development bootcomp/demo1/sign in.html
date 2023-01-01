@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page3</title>
+</head>
+<style>
+    body{
+        background-image: url(kawin-harasai-Q4qPu6hDdZA-unsplash.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    
+    .left{
+        width: 10%;
+    }
+    .left img{
+        filter: invert(20%);
+    }
+    .mid{
+        background-color: rgba(112, 157, 224, 0.178);
+        border-radius: 30px;
+        width: 50%;
+        text-align: right;
+        position: absolute;
+        top: 9%;
+        right: 1%;
+        }
+    .mid a{
+        text-decoration: none;
+        color: rgb(255, 250, 240);
+        font-size: 30px;
+        font-family: fantasy;
+        padding: 5%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        font-weight: 200;
+       
+    }
+    .right{
+        width: 50%;
+        position: absolute;
+        text-align: right;
+        top: 4%;
+        right: 1%;
+    }
+    .right .i,.ii{
+        background-color:rgba(112, 157, 224, 0.178);
+        color: blanchedalmond;
+        border-style: none;
+        font-size: 20px;
+        font-family: monospace;
+        border-radius: 20px;
+    }
+    .right .ii{
+        margin-right: 50px;
+    }
+
+    .mid a:hover{
+        color: cadetblue;
+    }
+    .mid a:active{
+        text-decoration: underline;
+        
+    }
+    .mid a:visited{
+        color: rgba(255, 159, 80, 0.76);
+    }
+
+    .right .i:hover,.ii:hover{
+        background-color: rgba(119, 136, 153, 0.452);
+        color: rgb(255, 255, 255);
+    }
+    
+    form{
+        margin: 30px auto;
+        width: 550px;
+        padding: 20px;
+        text-align: center;
+        color: bisque;
+    }
+    form h2{
+        font-size: 30px;
+        font-family: monospace;
+        border: 1px solid white;
+        border-radius: 20px;
+        width: 25%;
+        margin: 20px auto;
+        padding: 2px;
+        background-color: rgba(216, 191, 216, 0.253);
+
+    }
+
+    form input,select{
+        
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 30px;
+        background-color: rgba(30, 143, 255, 0.226);
+        padding: 10px;
+        text-align: center;
+    }
+    form input:hover,select:hover{
+        font-size: 23px;
+        background-color: rgba(0, 255, 255, 0.377);
+        border:2px solid rgb(8, 8, 8);
+    }
+
+
+     form button{
+         margin: 5px;
+         border-style:inset;
+         border-radius: 30px;
+         padding: 10px;
+         font-size: 18px;
+         font-weight: 600;
+         background-color: rgba(222, 184, 135, 0.61);  
+     }
+
+     form button:hover{
+         font-size: 19px;
+         background-color: rgba(222, 184, 135, 0.425);
+         font-family:monospace
+     }
+
+    form p{
+        font-size: 20px;
+        font-family: verdana;
+    }
+    form p a{
+        color: blue;
+    }
+
+    form p a:hover{
+        font-family: cursive;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 18px;
+        padding: 5px;
+        background-color: rgba(216, 191, 216, 0.527);
+        color: black;
+        text-decoration: none;
+    }
+
+    </style>
+<body>
+    <div class="navigation">
+        <div class="left">
+            <img src="Photo_1643275481868.png" alt="website logo" height="85px" width="100px">
+        </div>
+         <div class="mid">
+            <a href="page2.html">Home</a>
+            <a href="page3.html">Shop</a>
+            <a href="gsd">Offers</a>
+            <a href="asasb">Order</a>
+        </div>
+        <div class="right">
+            <a href="sign up.html"><button class="i">Sign Up</button></a>
+            <a href="contact.html"><button class="ii">Contact Us</button></a>        </div>
+
+        <form action="sign up.html">
+            <h2>Sign In</h2><br>
+
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+             <label for="lname">Last Name:</label><br>
+             <input type="text" id="lname" name="lname"><br><br>
+            
+             <label for="emailad">Email:</label><br>
+             <input type="email" id="emailad" name="emailad"><br><br>
+
+             <label for="num">Phone Number:</label><br>
+             <input type="number" id="num" name="num"><br><b=""r>
+
+             <label for="gen">Gender:</label><br>
+             <select id="gen" name="gen">
+                 <option value="male">Male</option>
+                 <option value="Female">Female</option>
+                 <option value="NA">Not mention</option>
+             </select><br><br>
+
+             <label for="dob">Date of birth:</label><br>
+             <input type="date" id="dob" name="dob"><br><br>
+
+             <label for="password">Creat Password</label><br>
+             <input type="password" id="password" class="password"><br><br>
+
+             <label for="repassword">Re-enter Password</label><br>
+             <input type="password" id="repassword" class="repassword"><br><br>
+            
+            <button type="submit">Sign in</button>
+             <button type="reset">Reset</button>
+             <P>Already have an account?<a href="sign up.html">Login</a> </P>
+
+        </form>
+
+    </body>
+    </html>

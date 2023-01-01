@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after Pseudo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        section {
+            height: 344px;
+
+            display: flex;
+            flex-direction: column;
+            margin: 3px 23px;
+            /* for aligning item into center we use  */
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+        /* adding content befor e section  */
+        section::before {
+            content: "this is a content";
+        }
+
+        .navigation {
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 34px 23px;
+        }
+
+        header::before {
+            content: "";
+            background: url(pic1.jpg) no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact</li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Welcome to coding world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quaerat, repellendus nulla, mollitia
+                aliquam numquam ad ratione nobis impedit dolorum exercitationem ipsam! Perspiciatis voluptas quisquam
+                sapiente asperiores. Illum quas velit natus dolores autem quos quia?</p>
+        </section>
+    </header>
+
+</body>
+
+</html>

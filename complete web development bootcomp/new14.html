@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow & text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: burlywood;
+            /* box-shadow: offset-x offset-y blur-radus spread-radious color;  */
+            box-shadow: -4px -5px 10px 5px green;
+            /* box-shadow: inset 4px 5px red;  */
+            
+        }
+        .card h2{
+            text-shadow: 2px 1px 2px rgb(245, 245, 245);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>this is c++ code</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quisquam nihil enim soluta minima doloribus expedita repudiandae odit at, distinctio tempora, omnis error?</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>tbis is html code</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quisquam nihil enim soluta minima doloribus expedita repudiandae odit at, distinctio tempora, omnis error?</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>this is css code</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quisquam nihil enim soluta minima doloribus expedita repudiandae odit at, distinctio tempora, omnis error?</p>
+        </div>
+    </div>
+    
+</body>
+</html>
